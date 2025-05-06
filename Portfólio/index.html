@@ -1,51 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cadu | Portfólio</title>
 </head>
+
 <body>
     <nav class="navegacao">
-    <ul class="menu">
+        <ul class="menu">
 
-    <li>
-        <a href="#inicio">Inicio</a>
-    </li>
+            <li>
+                <a href="#inicio">Inicio</a>
+            </li>
 
-    <li>
-        <a href="#sobre">Sobre</a>
-    </li>
+            <li>
+                <a href="#sobre">Sobre</a>
+            </li>
 
-    <li>
-        <a href="#projetos">Projetos</a>
-    </li>
+            <li>
+                <a href="#projetos">Projetos</a>
+            </li>
 
-    <li>
-        <a href="#contatos">Contatos</a>
-    </li>
-    
-    </ul>
+            <li>
+                <a href="#contatos">Contatos</a>
+            </li>
+
+        </ul>
     </nav>
 
     <main id="#inicio" class="cabecalho">
 
         <div>
-    <img src="./img/3-carreira-introvertidos-12abr2019-gettyimages.webp" alt="Imagem de uma pessoa" class="foto de perfil">
-    <h1>Carlos Eduardo Ferreira</h1>
-    <p>Desenvolvedor</p>
+            <img src="./img/3-carreira-introvertidos-12abr2019-gettyimages.webp" alt="Imagem de uma pessoa"
+                class="foto de perfil">
+            <h1>Carlos Eduardo Ferreira</h1>
+            <p>Desenvolvedor</p>
         </div>
 
-<section id="sobre" class="sobre">
+        <section id="sobre" class="sobre">
 
-<h2 class="sobre titulo">Sobre mim</h2>
+            <h2 class="sobre titulo">Sobre mim</h2>
 
-<div class="sobre-caixa">
-    <p class="sobre-paragrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis recusandae dolores labore, suscipit veritatis impedit officia aliquam voluptas molestiae eius aperiam, minima doloribus odio nam sit, quasi magnam ratione laudantium!</p>
-</div>
+            <div class="sobre-caixa">
+                <p class="sobre-paragrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis recusandae
+                    dolores labore, suscipit veritatis impedit officia aliquam voluptas molestiae eius aperiam, minima
+                    doloribus odio nam sit, quasi magnam ratione laudantium!</p>
+            </div>
 
-</section>
+        </section>
 
+        <section id="projetos" class="projetos">
+
+            <h2 class="projetos-titulo">Meus projetos
+
+                <div class="projetos-caixa">
+
+                    <div class="projetos-card">
+
+                        <img src="./img/sucesso-em-gerenciamento-de-projetos-com-as-7-melhores-praticas.webp"
+                            alt="Imagem de entrada projetos">
+                        <h3 class="info-projetos">projetos HTML</h3>
+                        <P class="paragrafo-projetos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                            voluptas architecto sapiente quas, quod eos? Velit dolorum odio et illo rerum exercitationem
+                            est consequuntur. Quidem accusamus fugit magnam. Temporibus esse nostrum inventore itaque
+                            corrupti? At rem eos mollitia vel magni consequatur culpa sapiente dolorum. Odit dignissimos
+                            eos saepe ipsa eligendi deleniti! Cum voluptatum beatae repellat obcaecati. Fuga, quod.
+                            Quibusdam, magnam?</P>
+
+                    </div>
+
+                    <div class="projetos-card">
+
+                        <img src="./img/sucesso-em-gerenciamento-de-projetos-com-as-7-melhores-praticas.webp"
+                            alt="Imagem de entrada projetos">
+                        <h3 class="info-projetos">projetos Java Script</h3>
+                        <P class="paragrafo-projetos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                            voluptas architecto sapiente quas, quod eos? Velit dolorum odio et illo rerum exercitationem
+                            est consequuntur. Quidem accusamus fugit magnam. Temporibus esse nostrum inventore itaque
+                            corrupti? At rem eos mollitia vel magni consequatur culpa sapiente dolorum. Odit dignissimos
+                            eos saepe ipsa eligendi deleniti! Cum voluptatum beatae repellat obcaecati. Fuga, quod.
+                            Quibusdam, magnam?</P>
+
+                    </div>
+
+                    <div class="projetos-card">
+
+                        <img src="./img/sucesso-em-gerenciamento-de-projetos-com-as-7-melhores-praticas.webp"
+                            alt="Imagem de entrada projetos">
+                        <h3 class="info-projetos">projetos Suporte em TI</h3>
+                        <P class="paragrafo-projetos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                            voluptas architecto sapiente quas, quod eos? Velit dolorum odio et illo rerum exercitationem
+                            est consequuntur. Quidem accusamus fugit magnam. Temporibus esse nostrum inventore itaque
+                            corrupti? At rem eos mollitia vel magni consequatur culpa sapiente dolorum. Odit dignissimos
+                            eos saepe ipsa eligendi deleniti! Cum voluptatum beatae repellat obcaecati. Fuga, quod.
+                            Quibusdam, magnam?</P>
+
+                    </div>
+
+                </div>
+
+
+
+            </h2>
+        </section>
+
+        <section id="contatos" class="contatos">
+            <h2 class="contatos-titulo">Contatos</h2>
+            <form class="formulario-contato" id="formulario">
+
+                <div class="nome-form">
+                    <input placeholder="Nome" class="campo-form">
+                </div>
+
+                <div class="grupo-form">
+                    <textarea  class="text-form" placeholder="Digite sua mensagem"></textarea>
+                </div>
+
+            </form>
+
+        </section>
     </main>
 </body>
+
 </html>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+
+}
+
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+
+</style>
