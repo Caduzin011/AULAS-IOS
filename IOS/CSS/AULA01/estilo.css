@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+}
+
+.fotos{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.sr-fotos{
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+}
+
+.projetos-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ 
+body{
+    background-color: rgb(252, 191, 61);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    color: white;
+}
